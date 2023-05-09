@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(27, 66%, 92%);
+  font-size: 62.5%;
+  padding-top: 6rem;
+  font-family: "DM Sans", sans-serif;
+}
+
+main {
+  width: 30rem;
+  margin: auto;
+}
+
+.balance {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(10, 79%, 65%);
+  padding: 2rem;
+  border-radius: 11px;
+  margin-bottom: 1rem;
+  color: hsl(33, 100%, 98%);
+}
+
+.balance p {
+  font-size: 0.8rem;
+  margin-bottom: 0.4rem;
+}
+.balance span {
+  font-size: 1.8rem;
+}
+.circles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-1 {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  width: 2rem;
+  height: 2rem;
+  transform: translateX(14px);
+}
+
+.circle-2 {
+  border-radius: 50%;
+  background-color: black;
+  width: 2rem;
+  height: 2rem;
+}
+
+.spending {
+  background-color: hsl(33, 100%, 98%);
+  border-radius: 11px;
+  padding: 2rem;
+}
+
+.spending h2 {
+  font-size: 2rem;
+}
+
+.days {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.day {
+  background-color: hsl(10, 79%, 65%);
+}
+
+.summar {
+  border-top: 1px solid #e3e3e3;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.summar h3 {
+  margin-top: 2rem;
+  font-weight: 400;
+  color: hsl(28, 10%, 53%);
+}
+
+.intro,
+.rate {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.intro span {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.rate {
+  justify-content: flex-end;
+  padding: 1rem;
+  font-size: 1rem;
+  align-items: end;
+}
+
+.rate span {
+  font-weight: 700;
+}
+
+.rate p {
+  color: hsl(28, 10%, 53%);
+}
+
+.parent-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.amount {
+  display: inline-block;
+  background-color: hsl(25, 47%, 15%);
+  color: #fff;
+  padding: 0.6rem;
+  border-radius: 3px;
+  margin-bottom: 0.3rem;
+  visibility: hidden;
+  font-weight: 700;
+  width: 3.4rem;
+  font-size: 0.8rem;
+}
+
+.visibility {
+  visibility: visible;
+}
+
+.current-day {
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 3px;
+  width: 2.6rem;
+}
+
+.current-day-big {
+  background-color: hsl(186, 34%, 60%);
+}
+
+.current-day-small {
+  background-color: hsl(10, 62%, 67%);
+}

@@ -1,0 +1,14 @@
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+  main {
+    width: 37rem;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
